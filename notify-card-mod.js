@@ -1,4 +1,4 @@
-class NotifyCardMod extends HTMLElement {
+class NotifyCardZeno extends HTMLElement {
   setConfig(config) {
     if (!config.target) {
       throw new Error('You need to define one or more targets');
@@ -69,4 +69,4 @@ class NotifyCardMod extends HTMLElement {
   }
 }
 
-customElements.define('notify-card-mod', NotifyCardMod);
+customElements.define('notify-card-zeno', NotifyCardZeno);
