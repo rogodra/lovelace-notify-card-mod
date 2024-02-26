@@ -1,4 +1,4 @@
-class NotifyCard extends HTMLElement {
+class NotifyCardMod extends HTMLElement {
   setConfig(config) {
     if (!config.target) {
       throw new Error('You need to define one or more targets');
