@@ -69,4 +69,4 @@ class NotifyCard extends HTMLElement {
   }
 }
 
-customElements.define('notify-card', NotifyCard);
+customElements.define('notify-card-mod', NotifyCardMod);
