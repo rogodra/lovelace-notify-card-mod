@@ -22,7 +22,6 @@ class NotifyCard extends HTMLElement {
       this.card.appendChild(this.content);
       this.appendChild(this.card);
     }
-    this.card.header = this.config.card_title ?? "Send Notification";
     this.content.innerHTML = "";
 
     if(this.config.notification_title instanceof Object){
