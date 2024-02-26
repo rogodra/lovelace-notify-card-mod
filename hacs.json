@@ -1,6 +1,6 @@
 {
-"name": "Notify Card",
+"name": "Notify Card Mod",
 "content_in_root": true,
-"filename": "notify-card.js",
+"filename": "notify-card-mod.js",
 "render_readme" : true
 }
